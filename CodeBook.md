@@ -16,20 +16,25 @@ set. This reduced the collection of measurements to 66.
 
 **Terminology of variable names:**
  * t - time domain signal
- f - frequency domain signal
- body - Body Acceleration signal
- gravity - Gravity Acceleration signal 
- acc - Accelerometer signal
- gyro - gyroscope signal
- jerk - jerk signal
- mag - magnitude of signal
- x, y, or z - direction
- mean - mean of measurements
- std - standard deviation of measurements
+ * f - frequency domain signal
+ * body - Body Acceleration signal
+ * gravity - Gravity Acceleration signal 
+ * acc - Accelerometer signal
+ * gyro - gyroscope signal
+ * jerk - jerk signal
+ * mag - magnitude of signal
+ * x, y, or z - direction
+ * mean - mean of measurements
+ * std - standard deviation of measurements
  
  The three grouping variables are:
-  subject: which of the 30 participants
-  exp_group: there were two groups (one for generating the training data and the other the test data)
-    Groups: TEST, TRAINING
-  activity: each participant performed six activities
-    Groups: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+ 
+   * subject: which of the 30 participants
+  
+   * exp_group: there were two groups (one for generating the training data and the other the test data)
+   
+   Groups: TEST, TRAINING
+  
+   * activity: each participant performed six activities
+  
+   Groups: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
