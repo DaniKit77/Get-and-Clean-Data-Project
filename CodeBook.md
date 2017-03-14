@@ -44,4 +44,4 @@ To create the tidy data set as instructed ("create a second, independent tidy da
 
 As a result of tidying up the data and to clarify that again averages were taken, the column headings of the grouped measurements have are edited from "var_name" to AVERAGE("var name").
 
-The new tidy table is then written as a new tab-delimited text file called "TidyTable.txt"
+The new tidy table is then written as a new tab-delimited text file called "tidytable_Kitover.txt"
